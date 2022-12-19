@@ -3,6 +3,7 @@
         "writeReview": true,
         "shareApp": true,
         "contactUs": true,
-        "inspiration": true
+        "inspiration": true,
+        "theme":true
     }
 }
