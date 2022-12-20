@@ -4,6 +4,7 @@
         "shareApp": true,
         "contactUs": true,
         "inspiration": true,
+        "moreRecommendation": true
         "theme":true
     }
 }
