@@ -1,6 +1,6 @@
 {
 	"featureFlags": {
-		"writeReview": false,
+		"writeReview": true,
 		"shareApp": true,
 		"contactUs": true,
 		"inspiration": true,
