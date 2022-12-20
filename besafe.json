@@ -1,10 +1,11 @@
 {
-    "featureFlags": {
-        "writeReview": false,
-        "shareApp": true,
-        "contactUs": true,
-        "inspiration": true,
-        "moreRecommendation": true,
-        "theme":true
-    }
+	"featureFlags": {
+		"writeReview": false,
+		"shareApp": true,
+		"contactUs": true,
+		"inspiration": true,
+		"moreRecommendation": true,
+		"theme": true
+	},
+	"inspirationURL": "https://en.wikipedia.org/wiki/Rape_in_India"
 }
