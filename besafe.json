@@ -9,5 +9,9 @@
 	},
 	"inspirationURL": "https://en.wikipedia.org/wiki/Rape_in_India",
 	"twitterProfileName": "DheeruN1210",
-	"appURL": "https://apps.apple.com/us/app/gingerly/id6444782796"
+	"appURL": "https://apps.apple.com/us/app/gingerly/id6444782796",
+	"faqs": [{
+		"question": "What is the question?",
+		"answer": "What is the answer"
+	}]
 }
