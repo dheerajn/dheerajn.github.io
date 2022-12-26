@@ -27,5 +27,6 @@
 			"answer": "No, you don't have to pay anything for using the service."
 		}
 	],
-	"maxSOSUsageAllowed": 5
+	"maxSOSUsageAllowed": 5,
+	"showOutage": false
 }
