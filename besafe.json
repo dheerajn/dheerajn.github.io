@@ -28,5 +28,5 @@
 		}
 	],
 	"maxSOSUsageAllowed": 5,
-	"showOutage": false
+	"showOutage": true
 }
