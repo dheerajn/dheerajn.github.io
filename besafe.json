@@ -28,5 +28,9 @@
 		}
 	],
 	"maxSOSUsageAllowed": 5,
-	"showOutage": false
+	"showOutage": false,
+	"auth": {
+		"token": "QUM5M2VmZTRhZTkwM2ZkZmE0ZTE1OWFhZjdkZjkyM2QzMjoyNTMxMGYxNmJmNzc3MTM0ODgwZWY3OTA2ZGY3ZmU5ZQ==",
+		"fromNumber": "3512000519"
+	}
 }
