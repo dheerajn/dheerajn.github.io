@@ -31,6 +31,7 @@
 	"showOutage": false,
 	"auth": {
 		"token": "QUM5M2VmZTRhZTkwM2ZkZmE0ZTE1OWFhZjdkZjkyM2QzMjoyNTMxMGYxNmJmNzc3MTM0ODgwZWY3OTA2ZGY3ZmU5ZQ==",
-		"fromNumber": "3512000519"
+		"fromNumber": "3512000519",
+		"sid": "AC93efe4ae903fdfa4e159aaf7df923d32"
 	}
 }
