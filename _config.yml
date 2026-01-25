@@ -24,7 +24,7 @@ author:
 
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "air"  # Clean, minimal skin like Cassidy's site
 
 # Site Footer
 footer:
@@ -53,36 +53,36 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
+      author_profile: false
+      read_time: false
       comments: false
-      share: true
-      related: true
+      share: false
+      related: false
   # TIL
   - scope:
       path: ""
       type: til
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: false
       comments: false
-      share: true
+      share: false
   # Projects
   - scope:
       path: ""
       type: projects
     values:
       layout: single
-      author_profile: true
-      share: true
+      author_profile: false
+      share: false
   # Pages
   - scope:
       path: "pages"
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
 
 # Reading Files
 include:

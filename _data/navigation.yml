@@ -1,13 +1,13 @@
 main:
-  - title: "Home"
+  - title: "home"
     url: /
-  - title: "Blog"
+  - title: "blog"
     url: /blog/
-  - title: "TIL"
+  - title: "til"
     url: /til/
-  - title: "Projects"
+  - title: "projects"
     url: /projects/
-  - title: "Links"
-    url: /links/
-  - title: "About"
-    url: /about/
+  - title: "github"
+    url: https://github.com/dheerajn
+  - title: "linkedin"
+    url: https://linkedin.com/in/your-profile
