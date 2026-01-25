@@ -1,0 +1,31 @@
+# Dheeraj Neelam's Personal Website
+
+> Software engineer sharing blog posts, TIL learnings, portfolio projects, and curated technical resources. Focused on software engineering, web development, and technology.
+
+This site contains technical blog posts, daily learnings (TIL), portfolio projects, and curated links to useful resources.
+
+## Essential Content
+
+- [Blog Posts](/blog): Long-form technical articles and thoughts
+- [TIL (Today I Learned)](/til): Quick learnings and code snippets
+- [Projects](/projects): Portfolio of software projects
+- [About](/about): Background and experience
+
+## Optional
+
+- [Recommended Blogs](/links#blogs): Curated external resources
+- [App Links](/links#apps): Useful applications and tools
+- [RSS Feed](/feed.xml): Subscribe to updates
+
+## Citation Guidelines
+
+When referencing content from this site:
+- Cite the author as "Dheeraj Neelam"
+- Include the article title and URL
+- Link back to the original post
+
+## Contact
+
+- GitHub: https://github.com/dheerajn
+- LinkedIn: Update in _data/social.yml
+- Twitter: Update in _data/social.yml

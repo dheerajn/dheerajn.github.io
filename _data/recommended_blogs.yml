@@ -1,0 +1,7 @@
+blogs:
+  - title: "Cassidy Williams"
+    url: https://cassidoo.co
+    description: Great blog about web development, tech career advice, and developer tools
+  - title: "Add Your Favorite Blog Here"
+    url: https://example.com
+    description: Replace this with blogs you actually recommend

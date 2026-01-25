@@ -1,0 +1,13 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Blog"
+    url: /blog/
+  - title: "TIL"
+    url: /til/
+  - title: "Projects"
+    url: /projects/
+  - title: "Links"
+    url: /links/
+  - title: "About"
+    url: /about/

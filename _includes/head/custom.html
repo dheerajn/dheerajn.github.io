@@ -1,0 +1,70 @@
+<!-- Schema.org Structured Data -->
+
+<!-- Person Schema (Site-wide) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.author.name }}",
+  "url": "{{ site.url }}",
+  "jobTitle": "Software Engineer",
+  "description": "{{ site.description }}",
+  "image": "{{ site.url }}{{ site.author.avatar }}",
+  "sameAs": [
+    {% for link in site.author.links %}
+    "{{ link.url }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+
+<!-- BlogPosting Schema (For blog posts and TIL) -->
+{% if page.layout == "single" and page.collection == "posts" or page.collection == "til" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ page.title | escape }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.author.name }}",
+    "url": "{{ site.url }}"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "{{ site.author.name }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{ site.author.avatar }}"
+    }
+  },
+  "description": "{{ page.excerpt | strip_html | strip_newlines | truncate: 160 | escape }}",
+  "url": "{{ page.url | absolute_url }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  }{% if page.image %},
+  "image": "{{ page.image | absolute_url }}"
+  {% endif %}
+}
+</script>
+{% endif %}
+
+<!-- Blog Schema (For blog index page) -->
+{% if page.url == "/blog/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "{{ site.title }}'s Blog",
+  "description": "Technical blog about software engineering and web development",
+  "url": "{{ site.url }}/blog/",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.author.name }}"
+  }
+}
+</script>
+{% endif %}
