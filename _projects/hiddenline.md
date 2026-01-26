@@ -3,6 +3,7 @@ title: "HiddenLine - Content Analysis Tool"
 date: 2025-01-01
 tech_stack: "iOS, Swift, SwiftUI, AI/ML, Content Analysis"
 app_store_url: "https://apps.apple.com/us/app/hiddenline/id6758023464"
+app_icon: "/assets/images/projects/hiddenline-icon.png"
 excerpt: "Analyzes content to reveal hidden assumptions and blind spots in articles, videos, documents, and code."
 ---
 

@@ -3,6 +3,7 @@ title: "Gingerly - Emergency SOS App"
 date: 2023-01-02
 tech_stack: "iOS, Swift, SwiftUI, Widgets, Siri Integration"
 app_store_url: "https://apps.apple.com/us/app/gingerly/id6444782796"
+app_icon: "/assets/images/projects/gingerly-icon.png"
 excerpt: "Your action could save life. Emergency SOS app for alerting contacts during dangerous situations with a single tap."
 ---
 
