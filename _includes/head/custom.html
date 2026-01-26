@@ -82,11 +82,17 @@ article pre code,
 }
 
 /* Hide footer on all pages */
-.page__footer {
+.page__footer,
+.page__footer footer,
+footer.page__footer,
+.layout--single .page__footer,
+.layout--archive .page__footer,
+body footer,
+#site-footer,
+.site-footer {
   display: none !important;
-}
-
-footer {
-  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  overflow: hidden !important;
 }
 </style>
