@@ -45,16 +45,26 @@ article pre code,
   }
 }
 
-/* Center-align navigation */
-.greedy-nav .visible-links {
+/* Show and center-align navigation */
+.masthead {
+  display: block !important;
+  visibility: visible !important;
+}
+
+.masthead__inner-wrap {
   display: flex !important;
   justify-content: center !important;
-  flex: 1 !important;
 }
 
 .greedy-nav {
   display: flex !important;
   justify-content: center !important;
+}
+
+.greedy-nav .visible-links {
+  display: flex !important;
+  justify-content: center !important;
+  flex: 1 !important;
 }
 
 /* Hide pagination (Previous/Next buttons) */
