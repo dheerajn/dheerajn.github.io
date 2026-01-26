@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__glean_default__read_document",
+      "mcp__glean_default__search",
+      "mcp__glean_default__chat",
+      "Bash(bundle exec jekyll serve:*)",
+      "Bash(bundle install:*)",
+      "Bash(rm:*)",
+      "Bash(mv:*)",
+      "Bash(git rm:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(find:*)",
+      "Bash(gh run list:*)",
+      "Bash(xargs:*)",
+      "WebFetch(domain:dheerajn.github.io)",
+      "WebFetch(domain:apps.apple.com)",
+      "Bash(curl:*)",
+      "Bash(git restore:*)"
+    ]
+  }
+}
