@@ -1,11 +1,10 @@
 ---
-layout: single
+layout: archive
 title: TIL (Today I Learned)
 permalink: /til/
 author_profile: false
 classes: wide
 ---
-<!-- Updated to ensure all titles display correctly -->
 
 # Today I Learned
 
@@ -28,7 +27,7 @@ Quick learnings, discoveries, and "aha!" moments. Short, focused posts with code
   </p>
 </article>
 {% unless forloop.last %}
-<hr style="margin: 2rem 0; border: none; border-top: 1px solid #ddd;">
+<hr style="margin: 2rem 0; border: none; border-top: 2px solid #888;">
 {% endunless %}
 {% endfor %}
 
