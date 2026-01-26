@@ -1,149 +1,37 @@
-<!-- Custom CSS for clean black and white design -->
 <style>
-/* Black and white color scheme */
-body {
-  background: #fff !important;
-  color: #000 !important;
+/* Custom code block styling */
+.page__content pre,
+.page__content code {
+  background-color: #f6f8fa !important;
+  border: 1px solid #e1e4e8;
 }
 
-.masthead {
-  border-bottom: 1px solid #000 !important;
-  box-shadow: none !important;
-  padding: 1em 0 !important;
-  background: #fff !important;
+.page__content pre {
+  padding: 16px;
+  border-radius: 6px;
+  overflow: auto;
+  line-height: 1.45;
 }
 
-.greedy-nav {
-  background: transparent !important;
+.page__content code {
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 85%;
 }
 
-.greedy-nav .visible-links {
-  display: flex !important;
-  align-items: center !important;
-  font-size: 0.95em !important;
+.page__content pre code {
+  padding: 0;
+  border: none;
+  background-color: transparent !important;
 }
 
-.greedy-nav .masthead__menu-item a {
-  color: #000 !important;
-  padding: 0.3em 0.7em !important;
-  text-decoration: none !important;
-  border-bottom: 2px solid transparent !important;
-  transition: all 0.2s ease !important;
-}
-
-/* Hover effect - keep as is */
-.greedy-nav .masthead__menu-item a:hover {
-  color: #000 !important;
-  background: #f0f0f0 !important;
-  border-radius: 4px !important;
-}
-
-/* Active/current page styling */
-.greedy-nav .masthead__menu-item a.active,
-.greedy-nav .masthead__menu-item a[href="{{ page.url }}"] {
-  border-bottom: 2px solid #000 !important;
-  font-weight: 600 !important;
-}
-
-.greedy-nav .masthead__menu-separator {
-  color: #999 !important;
-  margin: 0 0.3em !important;
-}
-
-.sidebar {
-  display: none !important;
-}
-
-.page {
-  width: 100% !important;
-  float: none !important;
-  background: #fff !important;
-}
-
-.page__content,
-.archive {
-  max-width: 720px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  color: #000 !important;
-}
-
-a {
-  color: #000 !important;
-}
-
-a:hover {
-  color: #666 !important;
-}
-</style>
-
-<!-- Schema.org Structured Data -->
-
-<!-- Person Schema (Site-wide) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "{{ site.author.name }}",
-  "url": "{{ site.url }}",
-  "jobTitle": "Software Engineer",
-  "description": "{{ site.description }}",
-  "image": "{{ site.url }}{{ site.author.avatar }}",
-  "sameAs": [
-    {% for link in site.author.links %}
-    "{{ link.url }}"{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ]
-}
-</script>
-
-<!-- BlogPosting Schema (For blog posts and TIL) -->
-{% if page.layout == "single" and page.collection == "posts" or page.collection == "til" %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "{{ page.title | escape }}",
-  "datePublished": "{{ page.date | date_to_xmlschema }}",
-  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
-  "author": {
-    "@type": "Person",
-    "name": "{{ site.author.name }}",
-    "url": "{{ site.url }}"
-  },
-  "publisher": {
-    "@type": "Person",
-    "name": "{{ site.author.name }}",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ site.url }}{{ site.author.avatar }}"
-    }
-  },
-  "description": "{{ page.excerpt | strip_html | strip_newlines | truncate: 160 | escape }}",
-  "url": "{{ page.url | absolute_url }}",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "{{ page.url | absolute_url }}"
-  }{% if page.image %},
-  "image": "{{ page.image | absolute_url }}"
-  {% endif %}
-}
-</script>
-{% endif %}
-
-<!-- Blog Schema (For blog index page) -->
-{% if page.url == "/blog/" %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Blog",
-  "name": "{{ site.title }}'s Blog",
-  "description": "Technical blog about software engineering and web development",
-  "url": "{{ site.url }}/blog/",
-  "author": {
-    "@type": "Person",
-    "name": "{{ site.author.name }}"
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .page__content pre,
+  .page__content code {
+    background-color: #161b22 !important;
+    border-color: #30363d;
+    color: #c9d1d9;
   }
 }
-</script>
-{% endif %}
+</style>
