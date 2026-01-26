@@ -25,7 +25,7 @@ classes: wide
       <i class="fab fa-linkedin" style="font-size: 1.5rem;"></i> LinkedIn
     </a>
     <a href="https://x.com/DheeruN1210" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-size: 1.1rem; display: flex; align-items: center; gap: 0.5rem;">
-      <i class="fab fa-twitter" style="font-size: 1.5rem;"></i> Twitter
+      <i class="fab fa-twitter" style="font-size: 1.5rem;"></i> X
     </a>
   </div>
 </div>
