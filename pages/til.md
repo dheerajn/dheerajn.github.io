@@ -20,9 +20,15 @@ Quick learnings, discoveries, and "aha!" moments. Short, focused posts with code
     {{ til.excerpt | strip_html | truncate: 300 }}
   </p>
   <p class="page__meta">
-    <time datetime="{{ til.date | date_to_xmlschema }}">{{ til.date | date: "%B %d, %Y" }}</time>
+    <span style="background-color: #e8e8e8; color: #333; padding: 4px 10px; border-radius: 4px; display: inline-block;">
+      <time datetime="{{ til.date | date_to_xmlschema }}">{{ til.date | date: "%B %d, %Y" }}</time>
+    </span>
     {% if til.tags %}
-      • Tags: {{ til.tags | join: ", " }}
+      <span style="margin-left: 10px;">
+        {% for tag in til.tags %}
+          <span style="color: #666;">#{{ tag }}</span>{% unless forloop.last %} {% endunless %}
+        {% endfor %}
+      </span>
     {% endif %}
   </p>
 </article>

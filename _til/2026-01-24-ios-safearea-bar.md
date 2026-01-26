@@ -26,4 +26,4 @@ struct SafeAreaBarTest: View {
 }
 ```
 
-![safeAreaBar demo](/assets/images/til/safearea-bar.png)
+<img src="/assets/images/til/safearea-bar.png" alt="safeAreaBar demo" style="max-width: 600px; height: auto;">
