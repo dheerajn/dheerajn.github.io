@@ -26,6 +26,9 @@ Quick learnings, discoveries, and "aha!" moments. Short, focused posts with code
     {% endif %}
   </p>
 </article>
+{% unless forloop.last %}
+<hr style="margin: 2rem 0; border: none; border-top: 1px solid #ddd;">
+{% endunless %}
 {% endfor %}
 
 {% if site.til.size == 0 %}
