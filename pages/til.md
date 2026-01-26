@@ -5,6 +5,7 @@ permalink: /til/
 author_profile: false
 classes: wide
 ---
+<!-- Updated to ensure all titles display correctly -->
 
 # Today I Learned
 
