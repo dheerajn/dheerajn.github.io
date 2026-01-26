@@ -10,7 +10,6 @@ author:
   name: Dheeraj Neelam
   bio: Software engineer passionate about building great products
   avatar: "/assets/images/profile.jpg"
-  location: "Your Location"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -19,22 +18,12 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/dheerun/"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/your-handle"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://x.com/DheeruN1210"
 
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "air"  # Clean, minimal skin like Cassidy's site
-
-# Site Footer
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/dheerajn"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/dheerun/"
 
 # Collections
 collections:
