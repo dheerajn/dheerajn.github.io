@@ -12,29 +12,29 @@ A collection of software projects I've built. Each project showcases different t
 
 {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
 {% for project in sorted_projects %}
-<article class="archive__item" style="display: flex; gap: 20px; align-items: flex-start;">
+<article class="archive__item" style="display: flex; gap: 20px; align-items: center;">
   {% if project.app_icon %}
   <div style="flex-shrink: 0;">
-    <img src="{{ project.app_icon }}" alt="{{ project.title }} icon" style="width: 80px; height: 80px; border-radius: 16px; border: 1px solid #e1e4e8;">
+    <img src="{{ project.app_icon }}" alt="{{ project.title }} icon" style="width: 80px; height: 80px; border-radius: 16px; border: 1px solid #e1e4e8; display: block;">
   </div>
   {% endif %}
 
   <div style="flex: 1;">
-    <h2 class="archive__item-title" style="margin-top: 0;">
+    <h2 class="archive__item-title" style="margin-top: 0; margin-bottom: 0.5rem;">
       <a href="{{ project.url }}">{{ project.title }}</a>
     </h2>
 
     {% if project.tech_stack %}
-    <p class="page__meta">
+    <p class="page__meta" style="margin-bottom: 0.5rem;">
       <strong>Tech Stack:</strong> {{ project.tech_stack }}
     </p>
     {% endif %}
 
-    <p class="archive__item-excerpt">
+    <p class="archive__item-excerpt" style="margin-bottom: 0.5rem;">
       {{ project.excerpt | strip_html | truncate: 200 }}
     </p>
 
-    <p class="archive__item-links">
+    <p class="archive__item-links" style="margin-bottom: 0;">
       {% if project.app_store_url %}
         <a href="{{ project.app_store_url }}" target="_blank" rel="noopener">View on App Store</a>
       {% endif %}
