@@ -8,4 +8,4 @@ In iOS 16+, use `toolbarTitleMenu()` to present a menu when users tap the naviga
 
 In iOS 17+, we can use `.toolbarTitleDisplayMode(.inlineLarge)` to have the navigation bar title stay large and inline
 
-<img src="/assets/images/til/toolbar-title-display-mode.png" alt="toolbar title display mode demo" style="max-width: 600px; height: auto;">
+<img src="/assets/images/til/toolbar-title-menu.png" alt="toolbar title menu demo" style="max-width: 800px; height: auto;">
