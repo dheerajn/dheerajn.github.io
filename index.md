@@ -17,7 +17,7 @@ classes: wide
     </p>
   </div>
 
-  <div style="display: flex; gap: 2rem; flex-wrap: wrap; margin-bottom: 3rem;">
+  <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
     <a href="https://github.com/dheerajn" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-size: 1.1rem; display: flex; align-items: center; gap: 0.5rem;">
       <i class="fab fa-github" style="font-size: 1.5rem;"></i> GitHub
     </a>
@@ -27,21 +27,5 @@ classes: wide
     <a href="https://x.com/DheeruN1210" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-size: 1.1rem; display: flex; align-items: center; gap: 0.5rem;">
       <i class="fab fa-twitter" style="font-size: 1.5rem;"></i> Twitter
     </a>
-  </div>
-
-  <div style="border-top: 2px solid #e1e4e8; padding-top: 2rem;">
-    <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">Featured</h2>
-
-    <div style="display: grid; gap: 1rem;">
-      <a href="/projects/" style="text-decoration: none; color: inherit; padding: 1rem; border: 1px solid #e1e4e8; border-radius: 8px; display: block; transition: background-color 0.2s;">
-        <strong>Projects</strong> — iOS apps including HiddenLine and Gingerly
-      </a>
-      <a href="/blog/" style="text-decoration: none; color: inherit; padding: 1rem; border: 1px solid #e1e4e8; border-radius: 8px; display: block; transition: background-color 0.2s;">
-        <strong>Blog</strong> — Technical articles and tutorials
-      </a>
-      <a href="/til/" style="text-decoration: none; color: inherit; padding: 1rem; border: 1px solid #e1e4e8; border-radius: 8px; display: block; transition: background-color 0.2s;">
-        <strong>TIL</strong> — Daily learnings and quick tips
-      </a>
-    </div>
   </div>
 </div>
