@@ -17,7 +17,7 @@ author:
       url: "https://github.com/dheerajn"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/your-profile"
+      url: "https://www.linkedin.com/in/dheerun/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/your-handle"
@@ -34,7 +34,7 @@ footer:
       url: "https://github.com/dheerajn"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/your-profile"
+      url: "https://www.linkedin.com/in/dheerun/"
 
 # Collections
 collections:
