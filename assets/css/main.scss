@@ -1,0 +1,46 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// Custom code block styling
+.page__content {
+  pre, code {
+    background-color: #f6f8fa;
+    border: 1px solid #e1e4e8;
+  }
+
+  pre {
+    padding: 16px;
+    border-radius: 6px;
+    overflow: auto;
+    line-height: 1.45;
+  }
+
+  code {
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 85%;
+  }
+
+  pre code {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+  }
+}
+
+// Dark mode support
+@media (prefers-color-scheme: dark) {
+  .page__content {
+    pre, code {
+      background-color: #161b22;
+      border-color: #30363d;
+      color: #c9d1d9;
+    }
+  }
+}
