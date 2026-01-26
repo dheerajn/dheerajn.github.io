@@ -1,6 +1,6 @@
 ---
 title: "Swift's zip() Function"
-date: 2026-01-25
+date: 2024-09-22
 tags: [swift, ios]
 ---
 
