@@ -5,8 +5,6 @@ permalink: /blog/
 author_profile: true
 ---
 
-# Blog Posts
-
 Long-form technical articles, tutorials, and thoughts on software engineering.
 
 {% for post in site.posts %}
