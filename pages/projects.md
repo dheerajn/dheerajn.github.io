@@ -6,8 +6,6 @@ author_profile: false
 classes: wide
 ---
 
-# Projects
-
 A collection of software projects I've built. Each project showcases different technologies, problem-solving approaches, and learning experiences.
 
 {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
