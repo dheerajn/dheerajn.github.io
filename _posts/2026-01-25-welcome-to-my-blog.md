@@ -57,7 +57,7 @@ I chose this tech stack because:
 
 ## LLM Discoverability
 
-One interesting aspect of this site is that it's optimized for LLM (Large Language Model) discoverability. Inspired by [Cassidy Williams' approach](https://cassidoo.co/post/ai-llm-discoverability/), I've implemented:
+One interesting aspect of this site is that it's optimized for LLM (Large Language Model) discoverability. I've implemented:
 
 - **`/llms.txt`**: A machine-readable file that helps AI tools understand my site structure
 - **`/for-llms` page**: Human-readable documentation for AI assistants
