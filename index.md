@@ -27,5 +27,8 @@ classes: wide
     <a href="https://x.com/DheeruN1210" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-size: 1.1rem; display: flex; align-items: center; gap: 0.5rem;">
       <i class="fab fa-x-twitter" style="font-size: 1.5rem;"></i> X
     </a>
+    <a href="https://medium.com/@dheerun" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-size: 1.1rem; display: flex; align-items: center; gap: 0.5rem;">
+      <i class="fab fa-medium" style="font-size: 1.5rem;"></i> Medium
+    </a>
   </div>
 </div>
