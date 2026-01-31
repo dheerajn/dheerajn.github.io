@@ -6,8 +6,6 @@ author_profile: false
 classes: wide
 ---
 
-# Today I Learned
-
 Quick learnings, discoveries, and "aha!" moments. Short, focused posts with code snippets, tips, and tricks I pick up along the way.
 
 {% assign sorted_til = site.til | sort: 'date' | reverse %}
