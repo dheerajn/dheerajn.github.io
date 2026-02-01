@@ -1,7 +1,9 @@
 ---
 title: "iOS 26+ safeAreaBar"
+description: "iOS 26+ introduces safeAreaBar modifier to show custom content as a bar beside the safe area. Perfect for bottom toolbars and custom UI."
 date: 2026-01-24
 tags: [swift, ios, swiftui]
+image: /assets/images/til/safearea-bar.png
 ---
 
 that we now use safeAreaBar from iOS 26+ to show the specified content as a custom bar beside the modified view
