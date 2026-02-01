@@ -1,5 +1,6 @@
 ---
 title: "navigationSubtitle in iOS 26"
+description: "iOS 26 brings navigationSubtitle modifier to iOS. Previously only available on macOS, now you can add subtitles to navigation bars."
 date: 2025-07-05
 tags: [swift, ios, swiftui]
 ---

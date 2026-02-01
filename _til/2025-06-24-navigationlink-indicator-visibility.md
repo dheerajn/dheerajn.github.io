@@ -1,5 +1,6 @@
 ---
 title: "navigationLinkIndicatorVisibility Backported to iOS 17.0+"
+description: "SwiftUI's navigationLinkIndicatorVisibility modifier is now backported to iOS 17.0+. Control disclosure indicator visibility in navigation links."
 date: 2025-06-24
 tags: [swift, ios, swiftui]
 ---

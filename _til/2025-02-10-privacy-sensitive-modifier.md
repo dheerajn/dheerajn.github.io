@@ -1,5 +1,6 @@
 ---
 title: "SwiftUI privacySensitive Modifier"
+description: "Automatically hide sensitive views when your app goes to background with .privacySensitive() modifier. One line of code for privacy protection."
 date: 2025-02-10
 tags: [swift, swiftui, ios]
 ---

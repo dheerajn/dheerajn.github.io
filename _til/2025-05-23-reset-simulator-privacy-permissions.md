@@ -1,5 +1,6 @@
 ---
 title: "Reset iOS Simulator Privacy Permissions"
+description: "One-liner command to reset all iOS Simulator privacy permissions. Perfect for testing first-time permission prompts without reinstalling."
 date: 2025-05-23
 tags: [ios, xcode, simulator]
 ---

@@ -1,5 +1,6 @@
 ---
 title: "UserDefaults Size Limit Notification"
+description: "Monitor UserDefaults size with UserDefaults.sizeLimitExceededNotification. Apple's built-in alert for when you exceed storage limits."
 date: 2025-05-15
 tags: [swift, ios, userdefaults]
 ---

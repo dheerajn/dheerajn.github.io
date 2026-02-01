@@ -1,5 +1,6 @@
 ---
 title: "Swift 6.0 Protocol Extensions with Generic Constraints"
+description: "Swift 6.0 enhances protocol extensions with better generic constraint support. Create more powerful and type-safe protocol extensions."
 date: 2025-02-28
 tags: [swift]
 ---

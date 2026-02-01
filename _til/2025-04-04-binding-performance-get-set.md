@@ -1,5 +1,6 @@
 ---
 title: "SwiftUI Binding Performance: Keypath vs get/set"
+description: "Use keypath bindings ($value) over Binding(get:set:) for better SwiftUI performance. Avoid unnecessary re-renders with efficient comparisons."
 date: 2025-04-04
 tags: [swift, swiftui]
 ---

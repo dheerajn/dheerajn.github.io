@@ -1,5 +1,6 @@
 ---
 title: "iOS 26 Inbuilt WebView"
+description: "iOS 26 introduces a native WebView component from WebKit. Easier web content integration without WKWebView complexity."
 date: 2025-06-11
 tags: [swift, ios, webkit]
 ---

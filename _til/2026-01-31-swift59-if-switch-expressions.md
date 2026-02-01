@@ -1,5 +1,6 @@
 ---
 title: "Swift 5.9 if/switch Expressions"
+description: "Swift 5.9 lets you use if and switch statements on the right side of assignments. Cleaner syntax for conditional value initialization."
 date: 2026-01-31
 tags: [swift]
 ---
