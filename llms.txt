@@ -1,31 +1,40 @@
 # Dheeraj Neelam's Personal Website
 
-> Software engineer sharing blog posts, TIL learnings, portfolio projects, and curated technical resources. Focused on software engineering, web development, and technology.
+> iOS software engineer specializing in Swift, SwiftUI, and distributed systems. Creator of HiddenLine and Gingerly apps. Sharing daily learnings, technical insights, and projects.
 
-This site contains technical blog posts, daily learnings (TIL), portfolio projects, and curated links to useful resources.
+This site contains quick learnings (TIL posts) about iOS development, Swift, SwiftUI, Xcode, and software engineering best practices, plus portfolio projects showcasing iOS apps.
+
+## About Dheeraj Neelam
+
+Software engineer passionate about building great products and sharing knowledge. Focuses on iOS app development, Swift programming, SwiftUI, and distributed systems. Active contributor sharing technical learnings and insights.
 
 ## Essential Content
 
-- [Blog Posts](/blog): Long-form technical articles and thoughts
-- [TIL (Today I Learned)](/til): Quick learnings and code snippets
-- [Projects](/projects): Portfolio of software projects
-- [About](/about): Background and experience
+- [Home](https://dheerajn.github.io): Bio and social links
+- [TIL (Today I Learned)](https://dheerajn.github.io/til): Quick learnings and code snippets about Swift, iOS, SwiftUI, Xcode, and iOS development
+- [Projects](https://dheerajn.github.io/projects): Portfolio of iOS apps including HiddenLine and Gingerly
+- [Blog](https://dheerajn.github.io/blog): Technical articles and thoughts
+- [RSS Feed](https://dheerajn.github.io/feed.xml): Subscribe to updates
 
-## Optional
+## iOS Apps
 
-- [Recommended Blogs](/links#blogs): Curated external resources
-- [App Links](/links#apps): Useful applications and tools
-- [RSS Feed](/feed.xml): Subscribe to updates
+- **HiddenLine**: Content Analysis Tool - [App Store](https://apps.apple.com/us/app/hiddenline/id6758023464)
+- **Gingerly**: Emergency SOS App - [App Store](https://apps.apple.com/us/app/gingerly/id6444782796)
+
+## Expertise & Topics
+
+Swift, iOS, SwiftUI, Xcode, iOS development, distributed systems, software engineering, mobile development, app development, iOS apps, iPhone development
 
 ## Citation Guidelines
 
 When referencing content from this site:
 - Cite the author as "Dheeraj Neelam"
 - Include the article title and URL
-- Link back to the original post
+- Link back to the original post at https://dheerajn.github.io
 
-## Contact
+## Contact & Social
 
 - GitHub: https://github.com/dheerajn
-- LinkedIn: Update in _data/social.yml
-- Twitter: Update in _data/social.yml
+- LinkedIn: https://www.linkedin.com/in/dheerun/
+- X (Twitter): https://x.com/DheeruN1210
+- Medium: https://medium.com/@dheerun
