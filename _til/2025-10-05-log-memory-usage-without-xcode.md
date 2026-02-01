@@ -1,7 +1,9 @@
 ---
 title: "Log Memory Usage Without Xcode"
+description: "Log app memory usage in production without Xcode using task_info. Monitor physical memory footprint programmatically."
 date: 2025-10-05
 tags: [swift, ios, debugging]
+image: /assets/images/til/memory-usage-logging.png
 ---
 
 to log memory usage without Xcode
