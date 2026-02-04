@@ -1,6 +1,6 @@
 ---
 title: "Test Network Quality from Terminal on macOS"
-date: 2026-02-03
+date: 2026-02-10
 tags: [macos, terminal, networking]
 ---
 

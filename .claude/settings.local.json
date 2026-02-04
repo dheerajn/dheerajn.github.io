@@ -17,7 +17,9 @@
       "WebFetch(domain:dheerajn.github.io)",
       "WebFetch(domain:apps.apple.com)",
       "Bash(curl:*)",
-      "Bash(git restore:*)"
+      "Bash(git restore:*)",
+      "Bash(gh run view:*)",
+      "Skill(create-slash-command)"
     ]
   }
 }
