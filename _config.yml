@@ -20,6 +20,13 @@ social:
     - "https://www.linkedin.com/in/dheerun/"
     - "https://medium.com/@dheerun"
 
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-01SYMRZ6YT"
+    anonymize_ip: false
+
 # Author Information
 author:
   name: Dheeraj Neelam
