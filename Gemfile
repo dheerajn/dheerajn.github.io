@@ -10,6 +10,7 @@ group :jekyll_plugins do
   gem "jekyll-gist"
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-include-cache"
+  gem "jekyll-remote-theme"
 end
 
 # Windows and JRuby does not include zoneinfo files
