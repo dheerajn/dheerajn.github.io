@@ -4,7 +4,7 @@ date: 2026-04-05
 tags: [swift, ios, swiftui]
 ---
 
-that we have a RENAME button in SwiftUI
+SwiftUI has a built-in RenameButton that you can use like this:
 
 ```swift
 HStack {
